@@ -4,8 +4,8 @@
   import path from 'path';
 
   export default defineConfig({
-    base: '/modulos-pagos/',
-    plugins: [react()],
+  base: process.env.NODE_ENV === 'production' ? '/modulos-pagos/' : '/',
+  plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
