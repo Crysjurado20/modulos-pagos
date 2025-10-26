@@ -25,6 +25,10 @@ export default function App() {
   const [hasPrivacyConsent, setHasPrivacyConsent] = useState<boolean>(false);
   const [creditCards, setCreditCards] = useState<CreditCardData[]>([]);
 
+  React.useEffect(() => {
+    console.log('App loaded successfully');
+  }, []);
+
   const handleNavigation = (screen: Screen) => {
     setCurrentScreen(screen);
   };
