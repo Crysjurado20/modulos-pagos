@@ -8,6 +8,7 @@ import { CreditCardFormScreen, CreditCardData } from './components/CreditCardFor
 import { ReceiptScreen } from './components/ReceiptScreen';
 import { Smartphone } from 'lucide-react';
 
+// Módulo de Pagos - Versión 1.0
 export type Screen = 'home' | 'services' | 'water-payment' | 'privacy-consent' | 'confirm' | 'credit-card-form' | 'receipt';
 
 export interface PaymentData {
