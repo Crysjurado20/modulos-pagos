@@ -4,7 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
-  base: '/',
+  base: '/modulos-pagos/',
   publicDir: 'public',
   plugins: [react()],
     resolve: {
